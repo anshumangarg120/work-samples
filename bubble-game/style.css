@@ -47,11 +47,39 @@ body {
   align-items: center;
   gap: 20px;
 }
+.elem h2{
+    font-weight: 500;
+    font-size: 22px;
+}
 .box {
   color: rgb(27, 75, 27);
   font-weight: 600;
-  font-size: 25px;
+  font-size: 22px;
   padding: 10px 20px;
   background-color: #fff;
   border-radius: 5px;
+}
+#pbtm{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+    width: 100%;
+    height:  calc( 100% - 100px);
+    padding: 20px;
+}
+.bubble{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 115, 0);
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 500;
+}
+.bubble:hover{
+    cursor: pointer;
+    background-color: rgb(190, 86, 0);
 }
