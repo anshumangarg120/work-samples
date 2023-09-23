@@ -31,7 +31,7 @@ body {
 }
 
 #ptop {
-  padding: 0px 30%;
+  padding: 0px 4vw;
   justify-content: space-between;
   display: flex;
   align-items: center;
@@ -53,7 +53,7 @@ body {
   color: rgb(27, 75, 27);
   font-weight: 600;
   font-size: 22px;
-  padding: 10px 20px;
+  padding: 5px 5px;
   background-color: #fff;
   border-radius: 5px;
 }
@@ -83,3 +83,5 @@ body {
     cursor: pointer;
     background-color: rgb(190, 86, 0);
 }
+
+

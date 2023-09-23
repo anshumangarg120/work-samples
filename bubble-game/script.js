@@ -1,5 +1,5 @@
 /** @format */
-var timer = 4;
+var timer = 10;
 var score = 0;
 var hitrn = 0;
 
@@ -15,7 +15,7 @@ function getNewHit() {
 
 function makeBubble() {
   var clutter = "";
-  for (var i = 1; i <= 168; i++) {
+  for (var i = 1; i <= 100; i++) {
     var rn = Math.floor(Math.random() * 10);
     clutter += `<div class="bubble">${rn}</div>`;
   }
