@@ -1,6 +1,6 @@
 /** @format */
 
-var istatus = document.querySelector("h5");
+var istatus = document.querySelector ("h5");
 
 var btn = document.querySelector("#add");
 
