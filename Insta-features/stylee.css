@@ -26,8 +26,6 @@ body {
   border-radius: 10px;
   overflow: hidden;
   cursor: pointer;
-  transform: all ease 0.5s;
-
 }
 #container img {
   height: 100%;
@@ -42,6 +40,6 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
-
-  opacity: 0.8;
+  transition: transform ease 0.5s;
+  opacity: 0;
 }
