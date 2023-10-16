@@ -25,7 +25,7 @@ body {
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
   overflow: hidden;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 #container img {
   height: 100%;
