@@ -35,7 +35,7 @@
   /* Buttons */
   .button {
     display: inline-block;
-    font-weight: 200;
+    font-weight: bold;
     border-radius: 30px;
     padding: 5px 10px;
     height: auto;
