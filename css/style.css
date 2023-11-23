@@ -1,0 +1,119 @@
+/**
+ * Reset CSS
+ *
+ * @format
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #374151;
+  margin: 0;
+  padding: 0;
+  font-family: 'Acme', sans-serif;
+  color: white;
+}
+
+.container {
+  margin: 10px;
+  padding: 10px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 30px;
+}
+
+header h1 {
+  font-weight: bold;
+  font-size: 4rem;
+}
+#work {
+  color: #ff7b00;
+}
+#samples {
+  color: white;
+}
+
+/* Project Cards */
+.project-card {
+    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+  background-color: #4b5563;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+.projectname{
+    color: #ff7b00;
+    
+}
+.html{
+    color: rgb(253, 75, 75);
+}
+.css{
+    color: rgb(63, 211, 63);
+}
+.javascript{
+    color: rgb(255, 255, 1)
+}
+.tailwindcss{
+    color: rgb(0, 110, 255)
+}
+.reactjs{
+    color: rgb(108, 167, 255)
+}
+.project-card h4 {
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: white;
+  margin: 10px;
+  padding-right: 50px;
+  width: 70%;
+  
+}
+
+.project-card p {
+  color: #f9fafb;
+}
+
+/* Buttons */
+.button {
+  display: inline-block;
+
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  border-radius: 40px;
+  padding: 10px 20px;
+  height: 40px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+.btn1 {
+  background-color: #ff7b00;
+}
+.btn1:hover {
+  background-color: #e45502;
+}
+.btn2 {
+  background-color: rgb(63, 211, 63);
+}
+
+.btn2:hover {
+  background-color: rgb(53, 177, 53);
+}
+.btntext{
+    color:white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
